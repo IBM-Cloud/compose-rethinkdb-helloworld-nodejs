@@ -30,7 +30,7 @@ compose-rethinkdb-helloworld-nodejs is a sample Bluemix application that shows y
   **Note :** The Compose for RethinkDB service does not offer a free plan. For details of pricing, see the _Pricing Plans_ section of the [Compose for RethinkDB service][compose_for_rethinkdb_url] in Bluemix.
 
   ```
-  $ cf create-service compose-rethinkdb-helloworld-nodejs Standard my-compose-for-rethinkdb-service
+  $ cf create-service compose-for-rethinkdb Standard my-compose-for-rethinkdb-service
   ```
 
 8. Push the app to Bluemix.
