@@ -32,8 +32,14 @@ compose-rethinkdb-helloworld-nodejs is a sample Bluemix application that shows y
   ```
   $ cf create-service compose-for-rethinkdb Standard my-compose-for-rethinkdb-service
   ```
+  
+8. Bind the service to the application.
 
-8. Push the app to Bluemix.
+  ```
+  $ cf bind-service compose-rethinkdb-helloworld-nodejs my-compose-for-rethinkdb-service
+  ```
+
+9. Push the app to Bluemix.
 
   ```
   $ cf push
