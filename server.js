@@ -124,4 +124,4 @@ app.get("/words", function(request, response) {
 // Now we go and listen for a connection.
 app.listen(port);
 
-//require("cf-deployment-tracker-client").track();
+require("cf-deployment-tracker-client").track();
