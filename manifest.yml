@@ -1,7 +1,7 @@
 ---
 applications:
-- name:    nd-compose-rethinkdb-helloworld-nodejs
-  host:    nd-compose-rethinkdb-helloworld-nodejs
+- name:    compose-rethinkdb-helloworld-nodejs
+  host:    compose-rethinkdb-helloworld-nodejs
   memory:  128M
   services:
-    - nd-compose-for-rethinkdb
+    - my-compose-for-rethinkdb-service
